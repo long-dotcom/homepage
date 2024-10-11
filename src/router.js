@@ -3,8 +3,7 @@ import { createRouter, createWebHistory } from 'vue-router';
 // 引入页面组件
 import Home from './components/Header.vue';
 import About from './components/About.vue';
-import Services from './components/Services.vue';
-import Contact from './components/CallToAction.vue';
+import PersonalWebsite from "./components/PersonalWebsite.vue";
 
 const routes = [
     {
@@ -18,14 +17,9 @@ const routes = [
         component: About
     },
     {
-        path: '/services',
-        name: 'Services',
-        component: Services
-    },
-    {
-        path: '/contact',
-        name: 'Contact',
-        component: Contact
+        path: '/PersonalWebsite',
+        name: 'PersonalWebsite',
+        component: PersonalWebsite
     },
     {
         path: '/:pathMatch(.*)*',

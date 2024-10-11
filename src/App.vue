@@ -6,11 +6,7 @@
     <!-- About Section -->
     <AboutSection />
 
-    <!-- Services Section -->
-    <ServicesSection />
-
-    <!-- Call to Action Section -->
-    <CallToActionSection />
+    <PersonalWebsiteSection />
 
     <!-- Footer Section -->
     <FooterSection />
@@ -20,17 +16,16 @@
 <script>
 import HeaderSection from './components/Header.vue';
 import AboutSection from './components/About.vue';
-import ServicesSection from './components/Services.vue';
-import CallToActionSection from './components/CallToAction.vue';
+import PersonalWebsiteSection from './components/PersonalWebsite.vue';
 import FooterSection from './components/Footer.vue';
+
 
 export default {
   name: 'App',
   components: {
     HeaderSection,
     AboutSection,
-    ServicesSection,
-    CallToActionSection,
+    PersonalWebsiteSection,
     FooterSection,
   },
 };

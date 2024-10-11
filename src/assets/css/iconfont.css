@@ -1,6 +1,6 @@
 @font-face {
   font-family: "iconfont"; /* Project id  */
-  src: url('iconfont.ttf?t=1728558287318') format('truetype');
+  src: url('../fonts/iconfont.ttf?t=1728625309032') format('truetype');
 }
 
 .iconfont {
@@ -25,6 +25,10 @@
 
 .icon-bilibili-line:before {
   content: "\e75d";
+}
+
+.icon-dingtalk:before {
+  content: "\e8d6";
 }
 
 .icon-github:before {
