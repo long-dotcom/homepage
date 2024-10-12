@@ -11,27 +11,27 @@
         <div class="col-lg-6">
           <div class="about_content mt-45">
             <div class="section_title">
-              <h5 class="sub_title">About</h5>
-              <h3 class="main_title">Why You Hire Me?</h3>
+              <h5 class="sub_title">关于</h5>
+              <h3 class="main_title">为什么雇用我？</h3>
               <ul class="line">
                 <li></li>
                 <li></li>
                 <li></li>
               </ul>
             </div>
-            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr...</p>
+            <p>当然，我掌握的不仅如此，每时每刻都在进步...</p>
 
             <div class="about_skills pt-15">
               <div class="skill_item mt-20">
                 <div class="skill_header">
-                  <h6 class="skill_title">UI/UX Design</h6>
+                  <h6 class="skill_title">Java </h6>
                   <div class="skill_percentage">
-                    <p><span class="counter">85</span>%</p>
+                    <p><span class="counter">80</span>%</p>
                   </div>
                 </div>
                 <div class="skill_bar">
                   <div class="bar_inner">
-                    <div class="bar progress_line" data-width="85"></div>
+                    <div class="bar progress_line" data-width="80"></div>
                   </div>
                 </div>
               </div>
@@ -40,12 +40,12 @@
                 <div class="skill_header">
                   <h6 class="skill_title">Web Design</h6>
                   <div class="skill_percentage">
-                    <p><span class="counter">75</span>%</p>
+                    <p><span class="counter">60</span>%</p>
                   </div>
                 </div>
                 <div class="skill_bar">
                   <div class="bar_inner">
-                    <div class="bar progress_line" data-width="75"></div>
+                    <div class="bar progress_line" data-width="60"></div>
                   </div>
                 </div>
               </div>
@@ -54,19 +54,19 @@
                 <div class="skill_header">
                   <h6 class="skill_title">HTML/CSS</h6>
                   <div class="skill_percentage">
-                    <p><span class="counter">90</span>%</p>
+                    <p><span class="counter">55</span>%</p>
                   </div>
                 </div>
                 <div class="skill_bar">
                   <div class="bar_inner">
-                    <div class="bar progress_line" data-width="90"></div>
+                    <div class="bar progress_line" data-width="55"></div>
                   </div>
                 </div>
               </div>
 
               <div class="skill_item mt-20">
                 <div class="skill_header">
-                  <h6 class="skill_title">Sketch</h6>
+                  <h6 class="skill_title">运维</h6>
                   <div class="skill_percentage">
                     <p><span class="counter">65</span>%</p>
                   </div>
