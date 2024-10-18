@@ -7,22 +7,44 @@
 ```
 homepage/
 ├── .vscode/
+│ └── extensions.json
 ├── public/
-│   └── favicon.ico
+│ └── favicon.ico
 ├── src/
-│   ├── assets/
-│   │   └── vue.svg
-│   ├── components/
-│   │   └── HelloWorld.vue
-│   ├── App.vue
-│   └── main.js
+│ ├── assets/
+│ │ ├── css/
+│ │ │ ├── all.min.css
+│ │ │ ├── base.css
+│ │ │ ├── bootstrap.min.css
+│ │ │ ├── default.css
+│ │ │ ├── iconfont.css
+│ │ │ ├── lineicons.css
+│ │ │ ├── main.css
+│ │ │ └── style.css
+│ │ ├── fonts/
+│ │ ├── images/
+│ │ └── js/
+│ │ ├── main.js
+│ │ └── showData/
+│ │ └── socialLinks.json
+│ ├── components/
+│ │ ├── About.vue
+│ │ ├── Footer.vue
+│ │ ├── Header.vue
+│ │ ├── PersonalWebsite.vue
+│ │ └── icons/
+│ │ └── IconDocumentation.vue
+│ ├── App.vue
+│ ├── main.js
+│ ├── router.js
+│ └── assets/
 ├── .gitignore
 ├── index.html
 ├── jsconfig.json
 ├── package.json
 ├── package-lock.json
-├── README.md
 └── vite.config.js
+
 ```
 
 ## 技术栈
@@ -147,3 +169,13 @@ npm run build
 
 - GitHub: [@long-dotcom](https://github.com/long-dotcom)
 - 项目链接: [https://github.com/long-dotcom/homepage](https://github.com/long-dotcom/homepage)
+
+## 屏幕截图
+
+| 首页 | 项目展示 |
+|:---:|:---:|
+| ![首页](./screenshots/home.png) | ![项目](./screenshots/projects.png) |
+
+| 技能展示 | 联系方式 |
+|:---:|:---:|
+| ![技能](./screenshots/skills.png) | ![联系](./screenshots/contact.png) |

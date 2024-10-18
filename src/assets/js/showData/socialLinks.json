@@ -1,8 +1,8 @@
 [
   { "class": "lni lni-wechat", "link": "https://www.wechat.com" },
-  { "class": "iconfont icon-dingtalk", "link": "https://www.dingtalk.com" },
-  { "class": "lni lni-github-original", "link": "https://github.com" },
-  { "class": "iconfont icon-QQ", "link": "https://www.qq.com" },
-  { "class": "iconfont icon-bilibili-line", "link": "https://www.bilibili.com" },
-  { "class": "lni lni-steam", "link": "https://store.steampowered.com" }
+  { "class": "iconfont icon-dingtalk", "link": "dingtalk://dingtalkclient/action/sendmsg?dingtalk_id=a199810112837" },
+  { "class": "lni lni-envelope", "link": "mailto:a199810222837@dingtalk.com" },
+  { "class": "lni lni-github-original", "link": "https://github.com/long-dotcom" },
+  { "class": "iconfont icon-bilibili-line", "link": "https://space.bilibili.com/52817911" },
+  { "class": "lni lni-steam", "link": "https://steamcommunity.com/profiles/76561198931085417/" }
 ]
