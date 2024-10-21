@@ -7,22 +7,44 @@
 ```
 homepage/
 ├── .vscode/
+│ └── extensions.json
 ├── public/
-│   └── favicon.ico
+│ └── favicon.ico
 ├── src/
-│   ├── assets/
-│   │   └── vue.svg
-│   ├── components/
-│   │   └── HelloWorld.vue
-│   ├── App.vue
-│   └── main.js
+│ ├── assets/
+│ │ ├── css/
+│ │ │ ├── all.min.css
+│ │ │ ├── base.css
+│ │ │ ├── bootstrap.min.css
+│ │ │ ├── default.css
+│ │ │ ├── iconfont.css
+│ │ │ ├── lineicons.css
+│ │ │ ├── main.css
+│ │ │ └── style.css
+│ │ ├── fonts/
+│ │ ├── images/
+│ │ └── js/
+│ │ ├── main.js
+│ │ └── showData/
+│ │ └── socialLinks.json
+│ ├── components/
+│ │ ├── About.vue
+│ │ ├── Footer.vue
+│ │ ├── Header.vue
+│ │ ├── PersonalWebsite.vue
+│ │ └── icons/
+│ │ └── IconDocumentation.vue
+│ ├── App.vue
+│ ├── main.js
+│ ├── router.js
+│ └── assets/
 ├── .gitignore
 ├── index.html
 ├── jsconfig.json
 ├── package.json
 ├── package-lock.json
-├── README.md
 └── vite.config.js
+
 ```
 
 ## 技术栈
@@ -120,9 +142,40 @@ npm run build
 
 此项目采用 MIT 许可证。详情请见 [LICENSE](LICENSE) 文件。
 
+## 模板来源
+
+本项目基于 [UIdeck](https://uideck.com/) 提供的模板。具体信息可在 `Footer.vue` 文件中找到,其中包含以下声明:
+
+```html
+<p class="credit pt-45">模板设计与开发由<a href="https://uideck.com/">UIdeck</a>提供</p>
+```
+
+我们对原始模板进行了以下主要修改:
+
+- 将模板从原始的HTML/CSS/JavaScript结构转换为Vue 3组件结构
+- 使用Vite作为构建工具,提高开发效率
+- 调整了项目结构以适应Vue单文件组件的组织方式
+- 添加了自定义组件和页面布局
+- 实现了响应式设计
+- 增加了个人信息、技能展示、项目展示等特定部分
+
+我们衷心感谢UIdeck提供的优秀模板,它为本项目提供了坚实的基础。同时,我们也鼓励用户在此基础上进行进一步的个性化定制,以创建独特的个人主页。
+
+请注意,使用此模板时应遵守UIdeck的许可条款。详细信息请参考他们的官方网站或`Footer.vue`文件中的相关说明。
+
 ## 联系方式
 
 如果您有任何问题或建议,请通过以下方式联系我:
 
 - GitHub: [@long-dotcom](https://github.com/long-dotcom)
 - 项目链接: [https://github.com/long-dotcom/homepage](https://github.com/long-dotcom/homepage)
+
+## 屏幕截图
+
+| 首页 | 项目展示 |
+|:---:|:---:|
+| ![首页](./screenshots/home.png) | ![项目](./screenshots/projects.png) |
+
+| 技能展示 | 联系方式 |
+|:---:|:---:|
+| ![技能](./screenshots/skills.png) | ![联系](./screenshots/contact.png) |
