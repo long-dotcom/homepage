@@ -17,7 +17,7 @@ const routes = [
         component: About
     },
     {
-        path: '/PersonalWebsite',
+        path: '/personalWebsite',
         name: 'PersonalWebsite',
         component: PersonalWebsite
     },
