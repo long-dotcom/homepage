@@ -172,10 +172,6 @@ npm run build
 
 ## 屏幕截图
 
-| 首页 | 项目展示 |
-|:---:|:---:|
-| ![首页](./screenshots/home.png) | ![项目](./screenshots/projects.png) |
-
-| 技能展示 | 联系方式 |
-|:---:|:---:|
-| ![技能](./screenshots/skills.png) | ![联系](./screenshots/contact.png) |
+| 首页 |              项目展示              |
+|:---:|:------------------------------:|
+| ![首页](./screenshots/home.png) | ![关于](./screenshots/about.png) |
