@@ -5,8 +5,8 @@ export default {
   data() {
     return {
       sites: [
-        { name: '个人博客', description: '这是我的个人博客，记录了我的学习和生活。', link: 'https://blog.blue-bird.website', image: '@/assets/images/site1.png', icon: 'https://blog.blue-bird.website/wp-content/uploads/2024/10/cropped-favicon-32x32.png' }
-    
+        { name: '个人博客', description: '这是我的个人博客，记录了我的学习和生活。', link: 'https://blog.blue-bird.website', image: '@/assets/images/site1.png', icon: 'https://blog.blue-bird.website/wp-content/uploads/2024/10/cropped-favicon-32x32.png' },
+        { name: 'TOOLS', description: '工具网站，提供一些常用的工具。', link: 'https://tools.blue-bird.website', image: '@/assets/images/site2.png', icon: 'https://tools.blue-bird.website/favicon.ico' }
       ]
     };
   }
