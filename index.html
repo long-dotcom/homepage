@@ -8,13 +8,17 @@
   </head>
   <body>
     <div id="app"></div>
-    <script type="module" src="/src/main.js"></script>
-    <script src="/src/assets/js/vendor/jquery-1.12.4.min.js"></script>
-    <script src="/src/assets/js/popper.min.js"></script>
-    <script src="/src/assets/js/bootstrap.min.js"></script>
-    <script src="/src/assets/js/jquery.appear.min.js"></script>
-    <script src="/src/assets/js/jquery.easing.min.js"></script>
-    <script src="/src/assets/js/scrolling-nav.js"></script>
-    <script src="/src/assets/js/main.js"></script>
+    <script type="module">
+      import { Toast } from '@/assets/js/bootstrap.esm.min.js'; // 根据实际路径调整
+      
+      Array.from(document.querySelectorAll('.toast'))
+      .forEach(toastNode => new Toast(toastNode))
+    </script>
+    <script type="module" src="@/main.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script type="module" src="@/assets/js/jquery.appear.min.js"></script>
+    <script type="module" src="@/assets/js/jquery.easing.min.js"></script>
+    <script type="module" src="@/assets/js/scrolling-nav.js"></script>
+    <script type="module" src="@/assets/js/main.js"></script>
   </body>
 </html>
