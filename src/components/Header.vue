@@ -45,13 +45,14 @@
             <div class="header_hero_content mt-45">
               <h5 class="header_sub_title wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.2s">你好！</h5>
               <h2 class="header_title wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.5s">欢迎访问我的个人主页</h2>
-              <span class="wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.8s">我是一名后端工程师，专注于轨道交通和物流软件开发。目前，我参与地铁运维与检修系统的开发，致力于设计高效的后端架构。</span>
-              <p class="wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="1.1s">我具备Java、Redis、Kafka、PostgreSQL和Linux运维等技能，热衷于解决复杂问题并提升团队效率。感谢你访问我的个人主页，期待与您交流合作的机会！</p>
+              <span class="wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.8s">嗨，我是一名后端工程师，喜欢写代码、搭系统，也爱折腾一些有趣的小项目</span>
+              <p class="wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="1.1s">日常主要使用 Java 开发，熟悉 Redis、Kafka、PostgreSQL，偶尔也搞搞 Linux 运维。热衷于把复杂的问题拆解得简单高效，让系统运行得更稳更顺。<br>
+                感谢你的到访，欢迎交流技术，也欢迎一起聊聊生活中的灵感与创意！</p>
             </div> <!-- header hero content -->
           </div>
           <div class="col-lg-6 col-md-6 col-sm-7">
             <div class="header_hero_image mt-50 wow fadeInRightBig" data-wow-duration="1.3s" data-wow-delay="1.8s">
-              <img src="@/assets/images/hero.png" alt="hero">
+              <img src="@/assets/images/hero-removebg-preview.png" alt="hero">
             </div> <!-- header hero image -->
           </div>
         </div> <!-- row -->

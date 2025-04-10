@@ -4,7 +4,7 @@
       <div class="row align-items-center justify-content-center">
         <div class="col-lg-6 col-md-9">
           <div class="about_image mt-50">
-            <img src="@/assets/images/about_hero.png" alt="Hero" />
+            <img src="@/assets/images/about-removebg-preview.png" alt="Hero" />
             <div class="about_shape"></div>
           </div>
         </div>
